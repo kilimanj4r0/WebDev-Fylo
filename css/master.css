@@ -1,0 +1,137 @@
+body {
+  position: relative;
+  z-index: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: hsl(229,57%,11%);
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 0;
+}
+
+.content {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, auto) auto;
+  justify-content: center;
+  column-gap: 2em;
+  padding: 23% 7%;
+}
+
+.left-side {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: hsl(228,56%,26%);
+  border-radius: .7em 6em .7em .7em;
+  padding: 2.5em 9em 2.5em 2.5em;
+  place-self: center;
+}
+
+.logo {
+  display: block;
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.icons-outside {
+    display: flex;
+}
+
+.icons {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  justify-content: center; /* center horizotally */
+  align-items: center; /* center vertically */
+  background-color: hsl(229,57%,11%);
+  padding: .7em;
+  border-radius: .7em;
+}
+
+#center-icon {
+  margin: 0 1rem;
+}
+
+.right-side {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  place-self: center;
+}
+
+.space-left {
+  background-color: white;
+  padding: 1em;
+}
+
+.space-left-int {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.space-left-str {
+  padding-left: .5em;
+  font-size: 10px;
+  font-weight: 700;
+  color: hsl(229,7%,55%);
+  text-transform: uppercase;
+}
+
+.space-status {
+  padding: 2em;
+  background-color: hsl(228,56%,26%);
+  border-radius: .7em;
+}
+
+.space-status-str {
+  color: white;
+}
+
+.space-status-str span {
+  font-weight: 700;
+}
+
+.space-status-bar {
+
+}
+
+.bar-0 {
+  height: 1.2em;
+  width: 30em;
+  background-color: hsl(229,57%,11%);
+  border-radius: .7em;
+  margin: 1em 0 .5em;
+}
+
+.bar-1 {
+
+}
+
+.bar-2 {
+  height: 1em;
+  width: 1em;
+  border-radius: .7em;
+  background-color: white;
+}
+
+.space-status-size {
+
+}
+
+.space-status-size {
+  font-weight: 700;
+  color: white;
+}
+
+.attribution {
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  font-size: 11px;
+  justify-content: center;
+}
+
+.attribution a {
+  color: hsl(228,45%,44%);
+}
